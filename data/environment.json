@@ -1,0 +1,8 @@
+{
+  "openssl": "OpenSSL 3.5.6 7 Apr 2026 (Library: OpenSSL 3.5.6 7 Apr 2026)",
+  "cpu": "Intel Core Ultra 7 155U",
+  "physical_memory_GiB": 31.46,
+  "logical_cpus": 14,
+  "os": "Windows-11-10.0.26300-SP0",
+  "python": "3.12.14"
+}

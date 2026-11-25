@@ -1,0 +1,36 @@
+policy,asset,score,rank,readiness
+Confidentiality-led,Backup replication,3.45,1,4
+Confidentiality-led,Public API,3.3,2,4
+Confidentiality-led,Service mesh,3.05,3,5
+Confidentiality-led,Managed bastion,3.0,4,5
+Confidentiality-led,Release signing,2.65,5,2
+Privilege-led,Managed bastion,3.6,1,5
+Privilege-led,Public API,3.5,2,4
+Privilege-led,Release signing,3.45,3,2
+Privilege-led,Backup replication,3.05,4,4
+Privilege-led,Service mesh,2.85,5,5
+Equal weight,Public API,3.75,1,4
+Equal weight,Release signing,3.25,2,2
+Equal weight,Backup replication,3.0,3,4
+Equal weight,Managed bastion,3.0,3,5
+Equal weight,Service mesh,2.75,5,5
+Drop C,Public API,4.166667,1,4
+Drop C,Release signing,3.75,2,2
+Drop C,Managed bastion,3.666667,3,5
+Drop C,Backup replication,2.416667,4,4
+Drop C,Service mesh,2.416667,4,5
+Drop E,Backup replication,3.933333,1,4
+Drop E,Service mesh,3.4,2,5
+Drop E,Managed bastion,3.0,3,5
+Drop E,Release signing,2.866667,4,2
+Drop E,Public API,2.733333,5,4
+Drop P,Backup replication,3.6,1,4
+Drop P,Public API,3.4,2,4
+Drop P,Service mesh,3.066667,3,5
+Drop P,Managed bastion,2.333333,4,5
+Drop P,Release signing,1.866667,5,2
+Drop I,Backup replication,3.611111,1,4
+Drop I,Service mesh,3.166667,2,5
+Drop I,Managed bastion,3.111111,3,5
+Drop I,Public API,3.111111,3,4
+Drop I,Release signing,2.388889,5,2
